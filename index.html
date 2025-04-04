@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive navigation bar - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#" class="nav__logo">
+                        <img src="./assets/images/admission jagat logo.webp" alt=""> Admission Jagat
+                    </a>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li>
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">                      
+                            <div class="nav__link dropdown__button">
+                                Colleges<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <!-- <div class="dropdown__icon">
+                                            <i class="ri-flashlight-line"></i>
+                                        </div> -->
+    
+                                        <span class="dropdown__title">Engineering in India</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Diploma in Engineering </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Technology(B.Tech)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Engineering(B.E.)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Master of Technology(M.Tech)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Master of Engineering(M.E.)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Doctor of Philosophy (Engg.)(Ph.D.)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">VIEW ALL..</a>
+                                            </li>
+                                        </ul>
+
+                                        <span class="dropdown__title">Medical</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Medicine & Bachelor of Surgery (MBBS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Dental Surgery (BDS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Ayurvedic Medicine & Surgery (BAMS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Homeopathic Medicine & Surgery(BHMS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Unani Medicine & Surgery(BUMS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Naturopathy & Yogic Sciences(BNYS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Siddha Medicine & Surgery(BSMS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Physiotherapy(BPT)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Doctor of Medicine (MD)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Master of Surgery (MS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">VIEW ALL..</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <!-- <div class="dropdown__icon">
+                                            <i class="ri-heart-3-line"></i>
+                                        </div> -->
+    
+                                        <span class="dropdown__title">Management Course</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Business Administration(BBA)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Business Management (BBM)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Management Studies (BMS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Commerce(B.Com)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Arts in Management (BA)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">VIEW ALL...</a>
+                                            </li>
+                                        </ul>
+
+                                        <span class="dropdown__title">Science</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Science (B.Sc.)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Science (Honours) (B.Sc.)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Computer Applications (BCA)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Science in Information Technology (B.Sc.IT)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Statistics (B.Stat)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Mathematics (B.Math)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Science in Agriculture(B.Sc.Agriculture)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Science in Nursing (B.Sc. Nursing)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Pharmacy(B.Pharm)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">VIEW ALL..</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <!-- <div class="dropdown__icon">
+                                            <i class="ri-book-mark-line"></i>
+                                        </div> -->
+    
+                                        <span class="dropdown__title">Commerce & Banking</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Commerce (B.Com)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Commerce (Honours) <br> (B.Com(Hons.))</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> B.Com in Banking & Insurance (BBI)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> B.Com in Financial Markets (BFM)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Business Administration(BBA)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> BBA in Banking & Finance</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Bachelor of Management Studies(BMS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> BA in Economics</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">VIEW ALL..</a>
+                                            </li>
+                                        </ul>
+
+                                        <span class="dropdown__title">Nursing</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">> ANM, GNM</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Certificate in Nursing Care <br> Duration is 6 months - 1 year</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> B.Sc. Nursing (Basic)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> B.Sc. Nursing (Post Basic)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> B.Sc. (Hons.) Nursing</a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="#" class="dropdown__link">> M.Sc. Nursing</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> Post Basic Diploma in Nursing Specialties</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">> MBA in Hospital & Healthcare Management</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">VIEW ALL..</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <!-- <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Certifications</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Course certificates</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Free certifications</a>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li class="dropdown__item">                      
+                            <div class="nav__link dropdown__button">
+                                Services<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-flashlight-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Most viewed courses</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">HTML for beginners</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Advanced CSS</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">JavaScript OOP</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-heart-3-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Popular courses</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Development with Flutter</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Web development with React</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Backend development expert</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-book-mark-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Careers</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Web development</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Applications development</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">UI/UX design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Informatic security</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-file-paper-2-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Certifications</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Course certificates</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Free certifications</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                Cources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-code-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Web templates</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Free templates</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Premium templates</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-pen-nib-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Designs</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Web designs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">App designs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Component design</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-apps-2-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Others</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Recent blogs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Tutorial videos</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Webinar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav__link">About Us</a>
+                        </li>
+
+                        <!--=============== DROPDOWN 3 ===============-->
+                        <li class="dropdown__item">                        
+                            <div class="nav__link dropdown__button">
+                                Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-community-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">About us</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Support</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Contact us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+                                        <div class="dropdown__icon">
+                                            <i class="ri-shield-line"></i>
+                                        </div>
+    
+                                        <span class="dropdown__title">Safety and quality</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="#" class="dropdown__link">Cookie settings</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="dropdown__link">Privacy Policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>Empowering Student Success</h1>
+            <p><strong>At Admission Jagat,</strong> we provide expert guidance in college admissions, course selection, and career counseling to help students achieve their educational goals.</p>
+            <button class="signup">Sign-up</button>
+        </section>
+        
+        <section class="images">
+            <img src="./assets/images/ESS img1.avif" alt="Conference Image 1">
+            <img src="./assets/images/ESS img2.webp" alt="Conference Image 2">
+        </section>
+        <section class="services">
+            <h2>Comprehensive Admission Services</h2>
+            <div class="service-container">
+                <div class="service-card">
+                    <img src="./assets/images/conference1.webp" alt="Classroom Discussion">
+                    <p>Expert guidance for college admissions, course selection, career counseling, and study abroad opportunities.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/conference2.jpg" alt="Consultation Desk">
+                    <p>Personalized support to navigate college applications and make informed educational choices for success.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/ESS img1.avif" alt="Career Guidance">
+                    <p>Dedicated professionals committed to helping students achieve their academic and career aspirations.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/conference1.webp" alt="Classroom Discussion">
+                    <p>Expert guidance for college admissions, course selection, career counseling, and study abroad opportunities.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/conference2.jpg" alt="Consultation Desk">
+                    <p>Personalized support to navigate college applications and make informed educational choices for success.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/ESS img1.avif" alt="Career Guidance">
+                    <p>Dedicated professionals committed to helping students achieve their academic and career aspirations.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/conference1.webp" alt="Classroom Discussion">
+                    <p>Expert guidance for college admissions, course selection, career counseling, and study abroad opportunities.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/conference2.jpg" alt="Consultation Desk">
+                    <p>Personalized support to navigate college applications and make informed educational choices for success.</p>
+                </div>
+                <div class="service-card">
+                    <img src="./assets/images/ESS img1.avif" alt="Career Guidance">
+                    <p>Dedicated professionals committed to helping students achieve their academic and career aspirations.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Feedback Section -->
+        <section class="feedback-section">
+            <h2>Student’s Feedback</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="./assets/images/student1.webp" alt="Student 1">
+                    <p>“Admission Jagat transformed my college application process into a smooth and successful journey.”</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./assets/images/student2.webp" alt="Student 2">
+                    <p>“Their expert guidance helped me choose the right courses and achieve my academic goals.”</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./assets/images/student1.webp" alt="Student 1">
+                    <p>“Admission Jagat transformed my college application process into a smooth and successful journey.”</p>
+                </div>
+                <div class="testimonial">
+                    <img src="./assets/images/student2.webp" alt="Student 2">
+                    <p>“Their expert guidance helped me choose the right courses and achieve my academic goals.”</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta-section">
+            <h2>Elevate Your Future</h2>
+            <p>Unlock your potential with expert guidance in college admissions, course selection, and career counseling. Start your journey today!</p>
+            <center><a href="#" class="cta-btn">Consult us</a></center>
+        </section>
+
+
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer">
+                <!-- Menu Section -->
+                <div>
+                    <h3>Menu</h3>
+                    <a href="#">Home</a>
+                    <a href="#">Services</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Blog</a>
+                </div>
+
+                <!-- Contacts Section -->
+                <div>
+                    <h3>Contacts</h3>
+                    <a href="mailto:official@admissionjagat.in">official@admissionjagat.in</a>
+                    <a href="tel:+919123753189">+91 91237 53189</a>
+                </div>
+
+                <!-- Socials Section -->
+                <div>
+                    <h3>Socials</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="footer-bottom">
+                Admission Jagat &copy; 2022 | Venture From Aman Enterprise
+            </div>
+        </footer>
+
+        
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
