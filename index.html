@@ -12,8 +12,10 @@
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>Responsive navigation bar - Bedimcode</title>
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="assets/css/testimonials.css">
+        <link rel="icon" type="image/png" href="./assets/images/admission jagat logo.webp">
+        <title>Admission Jagat</title>
     </head>
     <body>
         <!--=============== HEADER ===============-->
@@ -482,6 +484,10 @@
                         <li>
                             <a href="#" class="nav__link">Blog</a>
                         </li>
+                        <li class= "enq">
+                         <button class="enquiry">Enquiry</button>
+                        </li>
+                        
                     </ul>
                 </div>
             </nav>
@@ -545,7 +551,7 @@
         </section>
 
         <!-- Student Feedback Section -->
-        <section class="feedback-section">
+        <!-- <section class="feedback-section">
             <h2>Student’s Feedback</h2>
             <div class="testimonials">
                 <div class="testimonial">
@@ -566,14 +572,130 @@
                 </div>
                 
             </div>
-        </section>
+        </section> -->
+
+        <div class="container1">
+	
+            <div class="contents-wraper">
+                
+                <section class="header"><h1>Student’s Feedback</h1></section>
+        
+                <section class="testRow">
+                    
+                    <div class="testItem active">
+                        <img src="./assets/images/student1.webp" alt="Student 1">
+                        <h3>Student Name</h3>
+                        <h4>India</h4>
+                        <p>“Admission Jagat transformed my college application process into a smooth and successful journey.”</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <img src="./assets/images/student2.webp" alt="Student 2">
+                        <h3>Student Name</h3>
+                        <h4>India</h4>
+                        <p>“Their expert guidance helped me choose the right courses and achieve my academic goals.”</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <img src="./assets/images/student1.webp" alt="Student 1">
+                        <h3>Student Name</h3>
+                        <h4>India</h4>
+                        <p>“Admission Jagat transformed my college application process into a smooth and successful journey.”</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <img src="./assets/images/student2.webp" alt="Student 2">
+                        <h3>Student Name</h3>
+                        <h4>India</h4>
+                        <p>“Their expert guidance helped me choose the right courses and achieve my academic goals.”</p>
+                    </div>
+                    <div class="testItem">
+                        <img src="./assets/images/student1.webp" alt="Student 1">
+                        <h3>Student Name</h3>
+                        <h4>India</h4>
+                        <p>“Admission Jagat transformed my college application process into a smooth and successful journey.”</p>
+                    </div>
+        
+                    <div class="testItem">
+                        <img src="./assets/images/student2.webp" alt="Student 2">
+                        <h3>Student Name</h3>
+                        <h4>India</h4>
+                        <p>“Their expert guidance helped me choose the right courses and achieve my academic goals.”</p>
+                    </div>
+        
+                </section>
+        
+                <section class="indicators">
+                    <div class="dot active" attr='0' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='1' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='2' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='3' onclick="switchTest(this)"></div>
+                    <div class="dot" attr='4' onclick="switchTest(this)"></div>
+                </section>
+        
+            </div>
+        </div>
 
         <!-- Call to Action Section -->
-        <section class="cta-section">
+        <!-- <section class="cta-section">
             <h2>Elevate Your Future</h2>
             <p>Unlock your potential with expert guidance in college admissions, course selection, and career counseling. Start your journey today!</p>
             <center><a href="#" class="cta-btn">Consult us</a></center>
-        </section>
+        </section> -->
+        <section class="contact">
+            <div class="content">
+                <h2>Contact Us</h2>
+                <p><b>At Admission Jagat, we are committed to guiding students on their educational journey with the right information, expert advice, and timely support. Whether you have questions about college admissions, course selection, entrance exams, or career paths, our team is here to help.</b></p>
+    
+            </div>
+            <div class="container-form">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>India,West Bengal <br> Mukundapur Road</p>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91 91237 53189</p>
+                        </div>
+                    </div>
+    
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>official@admissionjagat.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form action="">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required"></textarea>
+                            <span>Type your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="submit" name="" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>   
 
 
 
@@ -595,6 +717,7 @@
                     <a href="mailto:official@admissionjagat.in">official@admissionjagat.in</a>
                     <a href="tel:+919123753189">+91 91237 53189</a>
                 </div>
+                
 
                 <!-- Socials Section -->
                 <div>
@@ -617,5 +740,72 @@
         
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script type="text/javascript">
+	
+            // Access the testimonials
+            let testSlide = document.querySelectorAll('.testItem');
+            // Access the indicators
+            let dots = document.querySelectorAll('.dot');
+        
+            var counter = 0;
+        
+            // Add click event to the indicators
+            function switchTest(currentTest){
+                currentTest.classList.add('active');
+                var testId = currentTest.getAttribute('attr');
+                if(testId > counter){
+                    testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+                    counter = testId;
+                    testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+                }
+                else if(testId == counter){return;}
+                else{
+                    testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+                    counter = testId;
+                    testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+                }
+                indicators();
+            }
+        
+            // Add and remove active class from the indicators
+            function indicators(){
+                for(i = 0; i < dots.length; i++){
+                    dots[i].className = dots[i].className.replace(' active', '');
+                }
+                dots[counter].className += ' active';
+            }
+        
+            // Code for auto sliding
+            function slideNext(){
+                testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+                if(counter >= testSlide.length - 1){
+                    counter = 0;
+                }
+                else{
+                    counter++;
+                }
+                testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+                indicators();
+            }
+            function autoSliding(){
+                deleteInterval = setInterval(timer, 2000);
+                function timer(){
+                    slideNext();
+                    indicators();
+                }
+            }
+            autoSliding();
+        
+            // Stop auto sliding when mouse is over the indicators
+            const container = document.querySelector('.indicators');
+            container.addEventListener('mouseover', pause);
+            function pause(){
+                clearInterval(deleteInterval);
+            }
+        
+            // Resume sliding when mouse is out of the indicators
+            container.addEventListener('mouseout', autoSliding);
+        
+        </script>
     </body>
 </html>
